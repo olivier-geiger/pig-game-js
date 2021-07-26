@@ -23,6 +23,14 @@ body {
 }
 
 /* LAYOUT */
+header {
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  top: 5rem;
+  left: center;
+}
+
 main {
   position: relative;
   width: 100rem;
@@ -168,4 +176,9 @@ main {
 
 .hidden {
   display: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
 }
